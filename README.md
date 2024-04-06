@@ -1,2 +1,14 @@
-# Kubernetes_Secrets_Volumes_Example
-Archivos ".yml" de ejemplo para practicas con volumenes y contraseñas en Kubernetes
+## Tools
+```
+kubectl run -i --tty --rm debug --image=mysql --restart=Never -- sh
+```
+
+```
+mysql -h wordpress-mysql -u root -p
+
+```
+
+## Links
+```
+https://kubernetes.io/docs/tutorials/stateful-application/mysql-wordpress-persistent-volume/
+```
